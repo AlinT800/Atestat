@@ -27,5 +27,11 @@ namespace ProiectAtestat
             Istorie istorie = new Istorie(); //deschide fereastra cu istoria șahului
             istorie.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Reguli f1 = new Reguli();
+            f1.ShowDialog();
+        }
     }
 }
