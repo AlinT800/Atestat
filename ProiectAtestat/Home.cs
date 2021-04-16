@@ -24,13 +24,13 @@ namespace ProiectAtestat
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Istorie istorie = new Istorie(); //deschide fereastra cu istoria șahului
+            Regulament istorie = new Regulament(); //deschide fereastra cu istoria șahului
             istorie.ShowDialog();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Reguli f1 = new Reguli();
+            Piese f1 = new Piese();
             f1.ShowDialog();
         }
     }

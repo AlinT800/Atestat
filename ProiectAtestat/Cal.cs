@@ -8,21 +8,16 @@ using System.Windows.Forms;
 
 namespace ProiectAtestat
 {
-    public partial class Istorie : Form
+    public partial class Cal : Form
     {
-        public Istorie()
+        public Cal()
         {
             InitializeComponent();
         }
 
-        private void BtnClose_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            this.Close();
-        }
-
-        private void BtnQuiz_Click(object sender, EventArgs e)
-        {
-
+            Close();
         }
     }
 }

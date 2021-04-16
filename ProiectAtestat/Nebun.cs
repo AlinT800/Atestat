@@ -8,11 +8,16 @@ using System.Windows.Forms;
 
 namespace ProiectAtestat
 {
-    public partial class Reguli : Form
+    public partial class Nebun : Form
     {
-        public Reguli()
+        public Nebun()
         {
             InitializeComponent();
+        }
+
+        private void BtnClose_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

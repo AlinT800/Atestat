@@ -1,7 +1,7 @@
 ﻿
 namespace ProiectAtestat
 {
-    partial class Reguli
+    partial class Piese
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace ProiectAtestat
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Reguli));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Piese));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -53,6 +53,7 @@ namespace ProiectAtestat
             this.button1.Text = "REGE";
             this.button1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -68,6 +69,7 @@ namespace ProiectAtestat
             this.button2.Text = "REGINĂ";
             this.button2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -83,6 +85,7 @@ namespace ProiectAtestat
             this.button3.Text = "NEBUN";
             this.button3.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -98,6 +101,7 @@ namespace ProiectAtestat
             this.button4.Text = "CAL";
             this.button4.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // button5
             // 
@@ -113,6 +117,7 @@ namespace ProiectAtestat
             this.button5.Text = "TURN";
             this.button5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button6
             // 
@@ -121,13 +126,14 @@ namespace ProiectAtestat
             this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button6.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button6.Location = new System.Drawing.Point(720, -3);
+            this.button6.Location = new System.Drawing.Point(719, -3);
             this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(152, 589);
+            this.button6.Size = new System.Drawing.Size(153, 589);
             this.button6.TabIndex = 5;
             this.button6.Text = "PION";
             this.button6.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button7
             // 
@@ -143,6 +149,7 @@ namespace ProiectAtestat
             this.button7.TabIndex = 6;
             this.button7.Text = "Click aici pentru a reveni la fereastra de pornire.";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.BtnClose_Click);
             // 
             // Reguli
             // 
